@@ -1,0 +1,94 @@
+/* CSS styles for the layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  /* CSS styles for the home section */
+  #home {
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  #home img {
+    max-width: 20%;
+    padding:15px;
+    height: auto;
+    float: right;
+    border-radius: 20%;
+    border:3px;
+    size: px;
+  }
+  div.icons{
+    display: flex;
+    justify-content: space-around;
+  }
+  div.icons a img{
+    width: 20vw;
+    height: 10vh;
+  } 
+  
+  
+  /* CSS styles for the about section */
+  #about {
+    background-color: #eaeaea;
+  }
+  
+  /* CSS styles for the projects section */
+  #projects {
+    background-color: #f9f9f9;
+  }
+  #projects img {
+    max-width: 50%;
+    height: auto;
+   
+  }
+  
+  /* CSS styles for the contact section */
+  #contact {
+    background-color: #eaeaea;
+    text-align: center;
+  }
+  footer button{
+    width: 10%;
+    background-color: #f9bc60;
+    
+    padding: 15px 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  footer button a{
+    text-decoration: none;
+    color: #001e1d;
+    font-size: 16px;
+  }
+  
+  
